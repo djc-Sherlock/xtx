@@ -5,3 +5,23 @@
 	width: 1240px;
 	margin: 0 auto;
 }
+/* 头部模块制作 */
+.top-nav {
+	height: 52px;
+	background-color: #333333;
+	line-height: 52px;
+}
+.top-nav ul li a {
+	color: #dcdcdc;
+	padding: 0 13px;
+	border-right: 1px solid #666666;
+}
+.top-nav ul {
+	float: right;
+}
+.top-nav ul li {
+	float: left;
+}
+.top-nav ul li:last-child a {
+	border-right: 0px;
+}
