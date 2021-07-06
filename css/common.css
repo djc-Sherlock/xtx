@@ -120,3 +120,61 @@
 	font-size: 13px;
 	border-radius: 8px;
 }
+
+/* 页面底部模块 */
+/* 上 contact 模块 */
+.contact {
+	height: 300px;
+}
+.contact .container {
+	padding-top: 75px;
+}
+.contact .container dl {
+	float: left;
+	width: 310px;
+	padding: 0 55px;
+}
+.contact .container dl dt {
+	text-align: center;
+	color: #999;
+}
+.contact .container dl dd {
+	float: left;
+	width: 92px;
+	height: 92px;
+
+	margin-top: 30px;
+	text-align: center;
+}
+.contact .container dl dd:nth-child(2) {
+	margin-right: 5px;
+}
+dl dd::before {
+	content: '';
+	display: block;
+	width: 36px;
+	height: 30px;
+	margin: 20px auto 10px;
+}
+.kefu::before {
+	background: url(../images/sprites.png) no-repeat -250px -70px;
+}
+.feedback::before {
+	background: url(../images/sprites.png) no-repeat -350px -70px;
+}
+.wx::before {
+	background: url(../images/sprites.png) no-repeat -250px -15px;
+}
+.wb::before {
+	background: url(../images/sprites.png) no-repeat -350px -15px;
+}
+/* 下 底部主体模块 */
+.footer-bd {
+	height: 340px;
+	background-color: #333;
+}
+.slogan {
+	padding-top: 56px;
+	height: 174px;
+	border-bottom: 3px solid #434343;
+}
