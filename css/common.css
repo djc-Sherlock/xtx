@@ -2,206 +2,221 @@
 
 /* 版心 */
 .container {
-  width: 1240px;
-  margin: 0 auto;
+	width: 1240px;
+	margin: 0 auto;
 }
 /* 头部模块制作 */
 .top-nav {
-  height: 52px;
-  background-color: #333333;
-  line-height: 52px;
+	height: 52px;
+	background-color: #333333;
+	line-height: 52px;
 }
 .top-nav ul li a {
-  color: #dcdcdc;
-  padding: 0 13px;
-  border-right: 1px solid #666666;
+	color: #dcdcdc;
+	padding: 0 13px;
+	border-right: 1px solid #666666;
 }
 .top-nav ul {
-  float: right;
+	float: right;
 }
 .top-nav ul li {
-  float: left;
+	float: left;
 }
 .top-nav ul li:last-child a {
-  border-right: 0px;
+	border-right: 0px;
 }
 .top-nav ul li:last-child a::before {
-  content: "";
-  display: inline-block;
-  width: 11px;
-  height: 16px;
-  margin-right: 4px;
-  vertical-align: middle;
-  background: url(../images/sprites.png) no-repeat -160px -70px;
-  margin-top: -3px;
+	content: '';
+	display: inline-block;
+	width: 11px;
+	height: 16px;
+	margin-right: 4px;
+	vertical-align: middle;
+	background: url(../images/sprites.png) no-repeat -160px -70px;
+	margin-top: -3px;
 }
 /* 主导航模块 */
 .main-nav {
-  height: 130px;
+	height: 130px;
 }
 .logo {
-  float: left;
-  width: 207px;
-  height: 70px;
-  margin-top: 36px;
+	float: left;
+	width: 207px;
+	height: 70px;
+	margin-top: 36px;
 }
 .logo a {
-  display: block;
-  width: 207px;
-  height: 70px;
-  /* 1.隐藏文字 */
-  /* font-size: 0px; */
-  /* 2.隐藏文字 */
-  text-indent: -9999px;
-  overflow: hidden;
-  background: url(../images/logo.png) no-repeat;
-  background-size: 207px 70px;
+	display: block;
+	width: 207px;
+	height: 70px;
+	/* 1.隐藏文字 */
+	/* font-size: 0px; */
+	/* 2.隐藏文字 */
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(../images/logo.png) no-repeat;
+	background-size: 207px 70px;
 }
 /* nav导航栏制作  */
 .nav {
-  float: left;
-  margin-left: 40px;
-  margin-top: 56px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 56px;
 }
 .nav li {
-  float: left;
-  margin-right: 48px;
+	float: left;
+	margin-right: 48px;
 }
 .nav li a {
-  /* a是行内元素，不能直接给padding，需要转换为块 */
-  display: block;
-  padding-bottom: 6px;
+	/* a是行内元素，不能直接给padding，需要转换为块 */
+	display: block;
+	padding-bottom: 6px;
 }
 .nav li a:hover {
-  border-bottom: 1px solid #27ba9b;
+	border-bottom: 1px solid #27ba9b;
 }
 /* 搜索模块 */
 .search {
-  position: relative;
-  float: left;
-  width: 172px;
-  height: 30px;
+	position: relative;
+	float: left;
+	width: 172px;
+	height: 30px;
 
-  margin-top: 56px;
+	margin-top: 56px;
 }
 .search input {
-  width: 100%;
-  height: 100%;
-  border-bottom: 2px solid #e7e7e7;
-  padding-left: 30px;
+	width: 100%;
+	height: 100%;
+	border-bottom: 2px solid #e7e7e7;
+	padding-left: 30px;
 }
 .search::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 5px;
-  width: 18px;
-  height: 18px;
-  background: url(../images/sprites.png) no-repeat -79px -70px;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 18px;
+	height: 18px;
+	background: url(../images/sprites.png) no-repeat -79px -70px;
 }
 .cart {
-  position: relative;
-  float: left;
-  margin: 56px 0 0 15px;
+	position: relative;
+	float: left;
+	margin: 56px 0 0 15px;
 }
 .cart a {
-  display: block;
-  width: 23px;
-  height: 23px;
-  background: url(../images/sprites.png) no-repeat -119px -70px;
+	display: block;
+	width: 23px;
+	height: 23px;
+	background: url(../images/sprites.png) no-repeat -119px -70px;
 }
 .cart span {
-  position: absolute;
-  top: -8px;
-  left: 14px;
-  background-color: #e26237;
-  padding: 0 5px;
-  color: #fff;
-  font-size: 13px;
-  border-radius: 8px;
+	position: absolute;
+	top: -8px;
+	left: 14px;
+	background-color: #e26237;
+	padding: 0 5px;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 8px;
 }
 
 /* 页面底部模块 */
 /* 上 contact 模块 */
 .contact {
-  height: 300px;
+	height: 300px;
 }
 .contact .container {
-  padding-top: 75px;
+	padding-top: 75px;
 }
 .contact .container dl {
-  float: left;
-  width: 310px;
-  padding: 0 55px;
+	float: left;
+	width: 310px;
+	padding: 0 55px;
 }
 .contact .container dl dt {
-  text-align: center;
-  color: #999;
+	text-align: center;
+	color: #999;
 }
 .contact .container dl dd {
-  float: left;
-  width: 92px;
-  height: 92px;
-
-  margin-top: 30px;
-  text-align: center;
+	float: left;
+	width: 92px;
+	height: 92px;
+	border: 1px solid #f4f4f4;
+	margin-top: 30px;
+	text-align: center;
 }
 .contact .container dl dd:nth-child(2) {
-  margin-right: 5px;
+	margin-right: 5px;
 }
 dl dd::before {
-  content: "";
-  display: block;
-  width: 36px;
-  height: 30px;
-  margin: 20px auto 10px;
+	content: '';
+	display: block;
+	width: 36px;
+	height: 30px;
+	margin: 20px auto 10px;
 }
 .kefu::before {
-  background: url(../images/sprites.png) no-repeat -250px -70px;
+	background: url(../images/sprites.png) no-repeat -250px -70px;
 }
 .feedback::before {
-  background: url(../images/sprites.png) no-repeat -350px -70px;
+	background: url(../images/sprites.png) no-repeat -350px -70px;
 }
 .wx::before {
-  background: url(../images/sprites.png) no-repeat -250px -15px;
+	background: url(../images/sprites.png) no-repeat -250px -15px;
 }
 .wb::before {
-  background: url(../images/sprites.png) no-repeat -350px -15px;
+	background: url(../images/sprites.png) no-repeat -350px -15px;
 }
 /* 下 底部主体模块 */
 .footer-bd {
-  height: 340px;
-  background-color: #333;
+	height: 340px;
+	background-color: #333;
 }
 .slogan {
-  padding-top: 56px;
-  height: 174px;
-  border-bottom: 3px solid #434343;
+	padding-top: 56px;
+	height: 174px;
+	border-bottom: 3px solid #434343;
 }
 .slogan ul li {
-  float: left;
-  width: 413px;
-  height: 58px;
-  text-align: center;
-  line-height: 58px;
-  font-size: 28px;
-  color: #fff;
+	float: left;
+	width: 413px;
+	height: 58px;
+	text-align: center;
+	line-height: 58px;
+	font-size: 28px;
+	color: #fff;
 }
 .slogan ul li::before {
-  content: "";
-  /* 必须是行内块元素，因为要和文字一行 */
-  display: inline-block;
-  height: 58px;
-  width: 58px;
-  /* TODO 基线对齐  明日要复习 不太懂 0708 */
-  vertical-align: middle;
-  margin-top: -7px;
-  background: url(../images/sprites.png) no-repeat;
-  margin-right: 10px;
+	content: '';
+	/* 必须是行内块元素，因为要和文字一行 */
+	display: inline-block;
+	height: 58px;
+	width: 58px;
+	/* TODO 基线对齐  明日要复习 不太懂 0708 */
+	vertical-align: middle;
+	margin-top: -7px;
+	background: url(../images/sprites.png) no-repeat;
+	margin-right: 19px;
 }
 .slogan ul li:nth-child(2)::before {
-  background: url(../images/sprites.png) no-repeat -65px 0px;
+	background: url(../images/sprites.png) no-repeat -65px 0px;
 }
 .slogan ul li:nth-child(3)::before {
-  background: url(../images/sprites.png) no-repeat -130px 0px;
+	background: url(../images/sprites.png) no-repeat -130px 0px;
+}
+/* 版权模块 */
+.copyright {
+	padding-top: 30px;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+}
+.copyright p {
+	margin-top: 10px;
+}
+.copyright a {
+	font-size: 16px;
+	color: #666;
+	padding: 8px 12px;
 }
