@@ -7,6 +7,83 @@
 
 /* 轮播图 banner */
 .banner {
+	position: relative;
 	height: 500px;
 	background-color: pink;
+}
+/* 左右按钮模块 */
+.prev,
+.next {
+	position: absolute;
+	top: 228px;
+	width: 45px;
+	height: 45px;
+	background: url(/images/sprites.png) no-repeat rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+}
+.prev {
+	left: 260px;
+	background-position: 14px -59px;
+}
+.next {
+	right: 10px;
+	background-position: -23px -59px;
+}
+/* 小圆点模块 */
+.circle {
+	position: absolute;
+	bottom: 30px;
+	left: 680px;
+}
+.circle li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(255, 255, 255, 0.3);
+	margin-right: 15px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.circle .active {
+	background-color: rgb(255, 255, 255, 1);
+}
+/* 侧边栏模块 */
+.container {
+	position: relative;
+}
+
+.entry .category {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.category ul li a {
+	position: relative;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 30px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.category ul li a:hover {
+	background-color: #27ba98;
+}
+.category ul li a h4 {
+	margin-right: 15px;
+	font-weight: normal;
+	display: inline;
+}
+.category ul li a::after {
+	content: '';
+	position: absolute;
+	top: 16px;
+	right: 18px;
+	width: 6px;
+	height: 14px;
+	background: url(/images/sprites.png) no-repeat -40px -108px;
 }
