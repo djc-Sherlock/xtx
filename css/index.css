@@ -87,3 +87,82 @@
 	height: 14px;
 	background: url(/images/sprites.png) no-repeat -40px -108px;
 }
+.xtx-panel-box {
+	margin-top: 40px;
+	height: 60px;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 29px;
+	font-weight: 400;
+}
+.box-hd h3 small {
+	font-size: 16px;
+	color: #999;
+	margin-left: 20px;
+}
+.box-hd .more {
+	float: right;
+	margin-top: 10px;
+}
+
+.box-hd .more::after {
+	content: '';
+	display: inline-block;
+	width: 7px;
+	height: 13px;
+	margin-left: 9px;
+	background: url(/images/sprites.png) no-repeat 0px -109px;
+}
+.box-bd {
+	position: relative;
+	height: 408px;
+}
+.box-bd ul li {
+	float: left;
+	width: 304px;
+	height: 408px;
+	margin-right: 8px;
+	background-color: #f0f9f4;
+	text-align: center;
+}
+
+.box-bd ul li:hover {
+	top: -5px;
+}
+
+.box-bd ul li:last-child {
+	margin-right: 0px;
+}
+.box-bd ul li img {
+	width: 304px;
+	height: 305px;
+}
+.box-bd ul li h4 {
+	margin: 18px 0 15px 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+.box-bd ul li h4 p {
+	font-size: 17px;
+	color: #9a2e1f;
+}
+.box-bd ul li h4 p span {
+	font-size: 23px;
+}
+.box-bd ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.box-bd .new {
+	position: absolute;
+	top: 18px;
+	left: 16px;
+	width: 29px;
+	height: 51px;
+	border: 1px solid #27ba98;
+	font-size: 16px;
+	color: #27ba98;
+	line-height: 22px;
+}
