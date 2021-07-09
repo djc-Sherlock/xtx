@@ -120,11 +120,15 @@
 }
 .box-bd ul li {
 	float: left;
+	position: relative;
+	/* 这个不要忘记,过渡效果要加top初始值 */
+	top: 0;
 	width: 304px;
 	height: 408px;
 	margin-right: 8px;
 	background-color: #f0f9f4;
 	text-align: center;
+	transition: 0.3s all;
 }
 
 .box-bd ul li:hover {
