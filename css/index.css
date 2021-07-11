@@ -177,3 +177,19 @@
 .info {
 	color: #999;
 }
+
+.box-hd ul {
+	float: left;
+	margin: 10px 0 0 635px;
+}
+.box-hd ul li a {
+	padding: 0 12px;
+}
+
+.box-hd ul li {
+	float: left;
+}
+.box-hd ul li a:hover {
+	background-color: #27ba98;
+	color: #fefbfc;
+}
