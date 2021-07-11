@@ -130,9 +130,13 @@
 	text-align: center;
 	transition: 0.3s all;
 }
-
+.box-bd .renqi li {
+	background-color: #fff;
+}
+/* 鼠标经过，li盒子往上走，添加盒子阴影 */
 .box-bd ul li:hover {
 	top: -5px;
+	box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
 }
 
 .box-bd ul li:last-child {
@@ -169,4 +173,7 @@
 	font-size: 16px;
 	color: #27ba98;
 	line-height: 22px;
+}
+.info {
+	color: #999;
 }
