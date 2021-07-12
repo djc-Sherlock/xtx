@@ -87,7 +87,7 @@
 	height: 14px;
 	background: url(/images/sprites.png) no-repeat -40px -108px;
 }
-.xtx-panel-box {
+.box-hd {
 	margin-top: 40px;
 	height: 60px;
 }
@@ -151,11 +151,11 @@
 	font-size: 20px;
 	font-weight: 400;
 }
-.box-bd ul li h4 p {
+.box-bd ul li p {
 	font-size: 17px;
 	color: #9a2e1f;
 }
-.box-bd ul li h4 p span {
+.box-bd ul li p span {
 	font-size: 23px;
 }
 .box-bd ul li a {
