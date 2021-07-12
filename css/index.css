@@ -1,195 +1,330 @@
 /* 首页样式内容 */
+
+
 /* 入口模块 */
+
 .entry {
-	height: 500px;
-	background-color: #f5f5f5;
+    height: 500px;
+    background-color: #f5f5f5;
 }
 
+
 /* 轮播图 banner */
+
 .banner {
-	position: relative;
-	height: 500px;
-	background-color: pink;
+    position: relative;
+    height: 500px;
+    background-color: pink;
 }
+
+
 /* 左右按钮模块 */
+
 .prev,
 .next {
-	position: absolute;
-	top: 228px;
-	width: 45px;
-	height: 45px;
-	background: url(/images/sprites.png) no-repeat rgba(0, 0, 0, 0.3);
-	border-radius: 50%;
+    position: absolute;
+    top: 228px;
+    width: 45px;
+    height: 45px;
+    background: url(/images/sprites.png) no-repeat rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
 }
+
 .prev {
-	left: 260px;
-	background-position: 14px -59px;
+    left: 260px;
+    background-position: 14px -59px;
 }
+
 .next {
-	right: 10px;
-	background-position: -23px -59px;
+    right: 10px;
+    background-position: -23px -59px;
 }
+
+
 /* 小圆点模块 */
+
 .circle {
-	position: absolute;
-	bottom: 30px;
-	left: 680px;
+    position: absolute;
+    bottom: 30px;
+    left: 680px;
 }
+
 .circle li {
-	float: left;
-	width: 10px;
-	height: 10px;
-	background-color: rgb(255, 255, 255, 0.3);
-	margin-right: 15px;
-	border-radius: 50%;
-	cursor: pointer;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255, 0.3);
+    margin-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
 }
+
 .circle .active {
-	background-color: rgb(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255, 1);
 }
+
+
 /* 侧边栏模块 */
+
 .container {
-	position: relative;
+    position: relative;
 }
 
 .entry .category {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 250px;
-	height: 500px;
-	background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
+
 .category ul li a {
-	position: relative;
-	display: block;
-	height: 50px;
-	line-height: 50px;
-	padding-left: 30px;
-	font-size: 16px;
-	color: #fff;
+    position: relative;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #fff;
 }
 
 .category ul li a:hover {
-	background-color: #27ba98;
+    background-color: #27ba98;
 }
+
 .category ul li a h4 {
-	margin-right: 15px;
-	font-weight: normal;
-	display: inline;
+    margin-right: 15px;
+    font-weight: normal;
+    display: inline;
 }
+
 .category ul li a::after {
-	content: '';
-	position: absolute;
-	top: 16px;
-	right: 18px;
-	width: 6px;
-	height: 14px;
-	background: url(/images/sprites.png) no-repeat -40px -108px;
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    width: 6px;
+    height: 14px;
+    background: url(/images/sprites.png) no-repeat -40px -108px;
 }
+
 .box-hd {
-	margin-top: 40px;
-	height: 60px;
+    margin-top: 40px;
+    height: 60px;
 }
+
 .box-hd h3 {
-	float: left;
-	font-size: 29px;
-	font-weight: 400;
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
 }
+
 .box-hd h3 small {
-	font-size: 16px;
-	color: #999;
-	margin-left: 20px;
+    font-size: 16px;
+    color: #999;
+    margin-left: 20px;
 }
+
 .box-hd .more {
-	float: right;
-	margin-top: 10px;
+    float: right;
+    margin-top: 10px;
 }
 
 .box-hd .more::after {
-	content: '';
-	display: inline-block;
-	width: 7px;
-	height: 13px;
-	margin-left: 9px;
-	background: url(/images/sprites.png) no-repeat 0px -109px;
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 13px;
+    margin-left: 9px;
+    background: url(/images/sprites.png) no-repeat 0px -109px;
 }
+
 .box-bd {
-	position: relative;
-	height: 408px;
+    position: relative;
+    height: 408px;
 }
+
 .box-bd ul li {
-	float: left;
-	position: relative;
-	/* 这个不要忘记,过渡效果要加top初始值 */
-	top: 0;
-	width: 304px;
-	height: 408px;
-	margin-right: 8px;
-	background-color: #f0f9f4;
-	text-align: center;
-	transition: 0.3s all;
+    float: left;
+    position: relative;
+    /* 这个不要忘记,过渡效果要加top初始值 */
+    top: 0;
+    width: 304px;
+    height: 408px;
+    margin-right: 8px;
+    background-color: #f0f9f4;
+    text-align: center;
+    transition: 0.3s all;
 }
+
 .box-bd .renqi li {
-	background-color: #fff;
+    background-color: #fff;
 }
+
+
 /* 鼠标经过，li盒子往上走，添加盒子阴影 */
+
 .box-bd ul li:hover {
-	top: -5px;
-	box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    top: -5px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
 }
 
 .box-bd ul li:last-child {
-	margin-right: 0px;
+    margin-right: 0px;
 }
+
 .box-bd ul li img {
-	width: 304px;
-	height: 305px;
+    width: 304px;
+    height: 305px;
 }
+
 .box-bd ul li h4 {
-	margin: 18px 0 15px 0;
-	font-size: 20px;
-	font-weight: 400;
+    margin: 18px 0 15px 0;
+    font-size: 20px;
+    font-weight: 400;
 }
+
 .box-bd ul li p {
-	font-size: 17px;
-	color: #9a2e1f;
+    font-size: 17px;
+    color: #9a2e1f;
 }
+
 .box-bd ul li p span {
-	font-size: 23px;
+    font-size: 23px;
 }
+
 .box-bd ul li a {
-	display: block;
-	width: 100%;
-	height: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
+
 .box-bd .new {
-	position: absolute;
-	top: 18px;
-	left: 16px;
-	width: 29px;
-	height: 51px;
-	border: 1px solid #27ba98;
-	font-size: 16px;
-	color: #27ba98;
-	line-height: 22px;
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    width: 29px;
+    height: 51px;
+    border: 1px solid #27ba98;
+    font-size: 16px;
+    color: #27ba98;
+    line-height: 22px;
 }
+
 .info {
-	color: #999;
+    color: #999;
 }
 
 .box-hd ul {
-	float: left;
-	margin: 10px 0 0 635px;
+    float: left;
+    margin: 10px 0 0 635px;
 }
+
 .box-hd ul li a {
-	padding: 0 12px;
+    padding: 0 12px;
 }
 
 .box-hd ul li {
-	float: left;
+    float: left;
 }
+
 .box-hd ul li a:hover {
-	background-color: #27ba98;
-	color: #fefbfc;
+    background-color: #27ba98;
+    color: #fefbfc;
+}
+
+.goods {
+    height: 610px;
+}
+
+.goods-l {
+    float: left;
+    width: 240px;
+    height: 610px;
+}
+
+.goods-l img {
+    width: 240px;
+    height: 610px;
+}
+
+.goods-r {
+    float: left;
+    width: 1000px;
+    height: 640px;
+}
+
+.goods-r ul li {
+    float: left;
+    position: relative;
+    width: 240px;
+    height: 304px;
+    /* 原先就有2像素透明边框 */
+    border: 2px solid transparent;
+    margin-left: 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.goods-r ul li:hover {
+    border: 2px solid #27ba98;
+}
+
+.pic {
+    height: 200px;
+    padding: 0 20px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods-r ul li h4 {
+    margin: 0 25px;
+    font-weight: 400;
+}
+
+.goods-r ul li p {
+    margin: 0 25px;
+}
+
+.goods-r .price {
+    margin: 0 25px;
+    font-size: 17px;
+    color: #9a2e1f;
+}
+
+.goods-r .price span {
+    font-size: 22px;
+}
+
+.find-baby {
+    position: absolute;
+    left: 0;
+    bottom: -87px;
+    height: 84px;
+    width: 100%;
+    background-color: #27ba98;
+    padding: 10px 55px 0 55px;
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.find-baby h5 {
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+}
+
+.goods-r .find-baby p {
+    font-size: 13px;
+    margin: 5px 0 0;
+}
+
+.goods-r ul li:hover .find-baby {
+    bottom: 0;
 }
